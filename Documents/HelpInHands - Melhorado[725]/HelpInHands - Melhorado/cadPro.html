@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>HELP IN HANDS - Profissional</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Css/tela.css">
+  <link rel="stylesheet" href="Css/desing.css">
+  <link rel="icon" type="imagem/jpg" href="img/icone.png" />
+
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html"> INÍCIO </a>
+   
+    </div>
+    <ul class="nav nav-pills">
+        <p><li class="nav-item">
+        <a class="navbar-header" href="como.html">Como funciona?</a>
+        </li>
+        <li class="nav-item">
+        <a class="navbar-header" href="#">Quem Somos</a>
+        </li></p>
+          <li class="nav-item">
+          <a class="navbar-header" href="#">Missão</a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-header" href="#">Valores</a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-header" href="#">Contato</a>
+        </li>
+          <li class="nav-item">
+            <a class="navbar-header" href="#">Depoimentos</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </li>
+      
+    <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder=" Digite o que Procura" aria-label="Pesquisar">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> Pesquisar</button>
+  </form>
+</ul>
+</div>
+</nav>
+    </head>
+    <body>
+        <div class="jumbotron text-center">
+            <h1>HELP IN HANDS</h1>
+            <p>SEU TRABALHO É NOSSO! </p>
+          </div>
+          <div class="container">
+            <div class="row">
+              <h2 aling="center"> PREENCHA O FORMULÁRIO</h2>
+            </div>
+          <fieldset>
+          <legend>Digite seus dados</legend>
+           <form>
+            <div class="form-group">
+              <div class="form-group col-md-7">
+                <label for="text">Nome Completo</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo"
+                oninvalid="setCustomValidity" required >
+              </div>
+              <div class="form-group">
+                <div class="form-group col-md-2">
+                  <label for="text">Telefone</label>
+                  <input type="text" class="form-control" id="telefone" placeholder="Digite seu telefone"
+                  oninvalid="setCustomValidity" required >
+                </div>
+              <label class="col-md-3 control-label" for="tipo">Sexo</label>
+              <div class="col-md-3"> 
+                <label class="radio-inline" for="tipo-0">
+                  <input name="tipo" id="tipo-0" value="1" type="radio">
+                  Feminino
+                </label>           
+              <label class="radio-inline" for="tipo-1">
+                <input name="tipo" id="tipo-1" value="2" type="radio">
+                Masculino
+              </div>
+              </label>
+              <div class="form-group">
+                <div class="form-group col-md-7">
+                  <label for="text">Endereço</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Digite seu Endereço completo"
+                  oninvalid="setCustomValidity" required >
+              </div>
+              <div class="form-group">
+                <div class="form-group col-md-3">
+                  <label for="text">Complemento</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Digite o complemento">
+              </div>
+              <div class="form-group">
+                <div class="form-group col-md-1">
+                  <label for="text">Número</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Nº">
+              </div>
+              <div class="form-group">
+                <div class="form-group col-md-3">
+                  <label for="text">Estado</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Digite seu Estado" oninvalid="setCustomValidity" required >
+              </div>
+              <div class="form-group col-md-3">
+                <label for="text">Cidade</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite sua Cidade" oninvalid="setCustomValidity" required >
+            </div>
+            <div class="form-group col-md-3">
+              <label for="text">Bairro</label>
+              <input type="text" class="form-control" id="nome" placeholder="Digite seu Bairro" oninvalid="setCustomValidity" required >
+          </div>
+          <div class="form-group col-md-3">
+            <label for="text">CEP</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite o CEP" oninvalid="setCustomValidity" required >
+        </div>
+
+        <div class="form-group">
+          <div class="form-group col-md-4">
+          <label for="text">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu E-mail" class="form-control input-md" required="" type="text"
+          oninvalid="setCustomValidity" required >
+          </div>
+        </div>
+        <div class="form-group col-md-3">
+          <label for="inputPassword4">Senha</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Digite uma Senha"
+          oninvalid="setCustomValidity" required >
+          </div>
+        </div>
+        <div class="form-group col-md-3">
+          <label for="inputPassword4">Repita sua Senha</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Confirme sua Senha"
+          oninvalid="setCustomValidity" required >
+          </div>
+        </fieldset>
+       
+                <p><a href="index.html" button type="button" class="btn btn-primary">VOLTAR</button></a>
+                <input button type="reset" value="LIMPAR" class="btn btn-danger"></button>
+                <button id="btnEnviar" type="button" class="btn btn-success">ENVIAR</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              
+    </form>
+  </body>
+</html> 
+
+<script type="text/javascript">
+  document.getElementById("btnEnviar").onclick = function () {
+      location.href = "cadServicos.html";
+  };
+</script>
