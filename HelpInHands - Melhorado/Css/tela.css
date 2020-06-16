@@ -1,0 +1,52 @@
+#Container {
+    background-color: darkgrey;
+    width: 1000px;
+    margin: 10px 150px ;
+}
+
+body {
+    background-color:white;
+}
+#conteudo {
+    width: 450px;
+    height: 573px;
+    margin-right:0px;
+    margin-top: 0px;
+    background-color:white;
+    float: left;
+}
+#MenuVert {
+    width: 550px;
+    height: 620px;
+    margin-left: 0px;
+    margin-top: 0;
+    background-color:white;
+    float: left;
+}
+#Formulario1 {
+    width: 300px;
+    height: 283px;
+    margin-left: 180px;
+    background-color:#A9A9A9;
+}
+#Formulario2 {
+    width: 300px;
+    height: 283px;
+    margin-left: 780px;
+    background-color:#A9A9A9;
+}
+#Rodape {
+    width: 1348px;
+    height: 53px;
+    margin-left: 0px;
+    margin-top: 120px;
+    background-color:black;
+    float: left;
+}
+#info {
+   
+    margin-left:10px;
+    margin-top: 0px;
+    background-color:white;
+    float: left;
+}
