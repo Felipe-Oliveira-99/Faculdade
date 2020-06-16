@@ -1,0 +1,104 @@
+ 
+.imagemCard {
+    width: 440px;
+    height: 460px;
+    margin-left: 0px;
+}
+.logo {
+    width: 180px;
+    height: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    margin-top: 0px;
+}
+.celular {
+    width: 230px;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.redes {
+    width: 130px;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.auto {
+    width: 130px;
+    height: 130px;
+    margin-left: 0px;
+}
+.baba {
+    width: 140px;
+    height: 140px;
+    margin-left: 0px;
+}
+.beleza {
+    width: 143px;
+    height: 143px;
+    margin-left: 0px;
+}
+.chef {
+    width: 140px;
+    height: 140px;
+    margin-left: 0px;
+}
+.domestica {
+    width: 122px;
+    height: 122px;
+    margin-left: 0px;
+}
+.fotografo {
+    width: 130px;
+    height: 130px;
+    margin-left: 0px;
+}
+.montagem {
+    width: 140px;
+    height: 140px;
+    margin-left: 0px;
+}
+.professor {
+    width: 140px;
+    height: 140px;
+    margin-left: 0px;
+}
+
+
+    #container {
+        text-align: center;
+        font-size: 15px;
+        color: coral;
+    }
+    #MenuVert {
+        text-align: center;
+        font-size: 15px;
+        color:black;
+    }
+    #Formulario1 {
+        text-align: left;
+        font-size: 15px;
+        color: currentColor;
+    }
+    #conteudo {
+        text-align: center;
+        font-size: 15px;
+        color: coral;
+    }
+    #Rodape {
+        text-align: center;
+        font-size: 10x;
+    }
+    #NavBar li {
+        text-align: center;
+        margin:auto;
+        padding:5px;
+        margin:15px;
+       
+        background-color: #EDEDED;
+        list-style: none;
+    }
+    
+    #NavBar ul li {
+        display: inline;
+    }
